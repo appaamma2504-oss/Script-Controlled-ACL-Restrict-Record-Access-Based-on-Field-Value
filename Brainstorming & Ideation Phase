@@ -1,0 +1,12 @@
+(function() {
+
+    var currentUser = gs.getUserID();
+    var recordOwner = current.getValue('assigned_to');
+
+    if (currentUser == recordOwner) {
+        answer = true;
+    } else {
+        answer = false;
+    }
+
+})();
