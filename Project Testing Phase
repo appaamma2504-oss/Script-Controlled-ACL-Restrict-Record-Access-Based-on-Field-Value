@@ -1,0 +1,12 @@
+function onChange(control, oldValue, newValue, isLoading) {
+    if (isLoading || newValue == '') {
+        return;
+    }
+
+    if (newValue == 'High') {
+        g_form.setMandatory('description', true);
+        g_form.setVisible('description', true);
+    } else {
+        g_form.setMandatory('description', false);
+    }
+}
