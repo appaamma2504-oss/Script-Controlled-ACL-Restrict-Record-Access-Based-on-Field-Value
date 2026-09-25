@@ -1,0 +1,29 @@
+# Project Development Phase
+
+## Project Title
+Script-Controlled ACL: Restrict Record Access Based on Field Value
+
+## Project Description
+This project implements a ServiceNow Access Control List (ACL) using scripting to restrict record access based on a specific field value.
+
+## Objective
+The main objective is to control user access to records dynamically based on field-level conditions.
+
+## Technologies Used
+- ServiceNow
+- ACL
+- JavaScript
+- Client Script
+- UI Policy
+
+## Key Features
+- Restricts unauthorized record access.
+- Uses script-based access control.
+- Validates field values before allowing access.
+- Improves data security in ServiceNow.
+
+## Expected Outcome
+The system allows users to access records only when the defined field conditions are satisfied.
+
+## Conclusion
+This project demonstrates how ServiceNow ACL scripting can be used to implement secure and condition-based record access.
