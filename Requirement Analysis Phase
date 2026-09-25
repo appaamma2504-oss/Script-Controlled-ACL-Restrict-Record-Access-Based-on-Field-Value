@@ -1,0 +1,31 @@
+# Requirement Analysis Phase
+
+## Project Title
+Script-Controlled ACL – Restrict Record Access Based on Field Value
+
+## Problem Statement
+The objective of this project is to restrict access to ServiceNow records based on specific field values using a Script-Controlled Access Control List (ACL).
+
+## Requirements
+- Create a Script-Controlled ACL.
+- Identify the field value used for access restriction.
+- Allow access only to authorized users when the required field condition is satisfied.
+- Restrict unauthorized users from accessing the record.
+- Test the ACL with different users and field values.
+- Verify that the access control works as expected.
+
+## Functional Requirements
+1. The system should check the specified field value.
+2. The ACL script should validate the user's access.
+3. Authorized users should be able to access the record.
+4. Unauthorized users should be denied access.
+5. The configuration should be tested with multiple scenarios.
+
+## Expected Outcome
+The Script-Controlled ACL should successfully restrict record access based on the specified field value and ensure that only authorized users can access the required records.
+
+## Tools and Technologies
+- ServiceNow
+- Access Control List (ACL)
+- Server-side JavaScript
+- GitHub
